@@ -1,7 +1,8 @@
-import React from 'react'
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Newsletter />
     </div>
   )
 }
