@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Newsletter from "./components/Newsletter";
 import Prices from "./components/Prices";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Newsletter />
       <Prices />
+      <Footer />
     </div>
   )
 }
